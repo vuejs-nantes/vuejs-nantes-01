@@ -34,26 +34,25 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       firstname: 'OnepunchMan',
-      lastname: 'Saitama',
+      lastname: 'Saitama'
     }
   },
 
   computed: {
-    name() {
-      return `${this.firstname} ${this.lastname}`.trim();
+    name () {
+      return `${this.firstname} ${this.lastname}`.trim()
     }
   }
 }
 </script>
-
 
 <style lang="scss" scoped>
 .reactivity {
@@ -87,7 +86,7 @@ export default {
     color: #212121;
     text-align: center;
   }
-  
+
   &__left {
     flex: 1;
     background-color: darken(#fefefe, 2%);
@@ -96,7 +95,6 @@ export default {
     justify-content: center;
     align-items: center;
   }
-
 
   &__code {
     background-color: #212121;

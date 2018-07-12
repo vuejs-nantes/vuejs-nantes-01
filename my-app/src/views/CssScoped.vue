@@ -11,13 +11,12 @@
 </style>
 
 <script>
-import StyledLabel from '@/components/StyledLabel.vue';
+import StyledLabel from '@/components/StyledLabel.vue'
 
 export default {
-  components: { StyledLabel },
+  components: { StyledLabel }
 }
 </script>
-
 
 <style lang="scss">
 .styled-scoped {
@@ -26,7 +25,6 @@ export default {
   text-align: center;
 }
 </style>
-
 
 <style lang="scss" scoped>
 .css-scoped {
@@ -46,6 +44,5 @@ export default {
     font-size: 4rem;
   }
 }
-
 
 </style>

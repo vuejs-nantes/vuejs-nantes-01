@@ -12,25 +12,25 @@
 </template>
 
 <script>
-import GridItem from './GridItem.vue';
+import GridItem from './GridItem.vue'
 
 export default {
   components: { GridItem },
 
-  data() {
+  data () {
     return {
-      show: false,
+      show: false
     }
   },
 
   methods: {
     beforeEnter: function (el, done) {
-      var delay = el.dataset.index * 30;
-      el.style['transition-delay'] = `${delay}ms`;
+      var delay = el.dataset.index * 30
+      el.style['transition-delay'] = `${delay}ms`
     },
 
-    toggle() {
-      this.show = !this.show;
+    toggle () {
+      this.show = !this.show
     }
   }
 }
@@ -47,7 +47,6 @@ export default {
   &__part {
     margin-bottom: 1rem;
   }
-  
 
   &__content {
     display: grid;
@@ -64,4 +63,3 @@ export default {
   opacity: 0;
 }
 </style>
-

@@ -29,7 +29,7 @@ export default {
   &__part {
     display: flex;
     flex-flow: column;
-    
+
     &--center {
       justify-content: center;
       align-items: center;
@@ -65,4 +65,3 @@ export default {
   }
 }
 </style>
-

@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <style lang="scss" scoped>
 .grid-item {
   padding: 1rem;
