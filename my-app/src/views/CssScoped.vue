@@ -2,7 +2,7 @@
   <div class="css-scoped">
     <StyledLabel>IM FABULOUS 🦄</StyledLabel>
     <label class="styled-scoped">J'ai la même class mais je n'ai toujours pas autant la classe 😞</label>
-    <StyledLabel class="styled-scoped-override">Overide dans le parent pour de la composition ! 🎉</StyledLabel>
+    <StyledLabel class="styled-scoped-override">Override dans le parent pour de la composition ! 🎉</StyledLabel>
   </div>
 </template>
 
